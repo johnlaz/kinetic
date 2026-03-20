@@ -1,0 +1,14 @@
+# Kinetic Capital — GitHub Pages config
+# This file tells GitHub Pages NOT to process files with Jekyll
+# Critical: prevents Jekyll from ignoring files starting with _ or .
+# and from mangling HTML/CSS/JS content
+
+plugins: []
+exclude: []
+include:
+  - "*.html"
+  - "*.js"
+  - "*.json"
+  - "*.png"
+  - "*.sh"
+  - ".nojekyll"

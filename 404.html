@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Kinetic Capital</title>
+  <script>
+    // GitHub Pages SPA redirect — sends any 404 back to index.html
+    // preserving the path in sessionStorage so the app can handle it
+    var path = window.location.pathname + window.location.search + window.location.hash;
+    sessionStorage.setItem('redirect', path);
+    window.location.replace('/');
+  </script>
+</head>
+<body>
+  <style>body{background:#070a0f;color:#c4d4e4;font-family:monospace;display:flex;align-items:center;justify-content:center;height:100vh;margin:0;}</style>
+  <div style="text-align:center;">
+    <div style="font-size:24px;font-weight:700;color:#36b2f5;margin-bottom:8px;">KINETIC CAPITAL</div>
+    <div style="color:#5a7590;">Redirecting&hellip;</div>
+  </div>
+</body>
+</html>

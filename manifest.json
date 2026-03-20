@@ -1,0 +1,36 @@
+{
+  "name": "Kinetic Capital \u2014 Portfolio Terminal",
+  "short_name": "Kinetic Capital",
+  "description": "Internal investment portfolio analyst engine with AI-powered insights, efficient frontier simulation, stress testing, and live market data.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "landscape-primary",
+  "background_color": "#070a0f",
+  "theme_color": "#070a0f",
+  "categories": [
+    "finance",
+    "productivity",
+    "utilities"
+  ],
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-180.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
