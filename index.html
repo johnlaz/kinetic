@@ -1308,7 +1308,7 @@ function runStress(el,key){
   document.getElementById('stress-active-name').textContent=escHtml(p.name);
   document.getElementById('stress-res').innerHTML=
     '<div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:10px;">'
-    +'<div class="incc"><div class="incl">Stressed Return</div><div class="incv" style="color:'+(ret>0?'var(--grn)':'var(--red)');+'">'+( ret*100).toFixed(2)+'%</div></div>'
+    +'<div class="incc"><div class="incl">Stressed Return</div><div class="incv" style="color:'+(ret>0?'var(--grn)':'var(--red)')+'">'+( ret*100).toFixed(2)+'%</div></div>'
     +'<div class="incc"><div class="incl">Return Delta</div><div class="incv" style="color:'+(delta>=0?'var(--grn)':'var(--red)')+'">'+( delta>=0?'+':'')+'$'+Math.abs(Math.round(delta)).toLocaleString()+'</div></div>'
     +'<div class="incc"><div class="incl">Stressed Sharpe</div><div class="incv" style="color:'+(sr>.4?'var(--grn)':sr>.2?'var(--gld)':'var(--red)')+'">'+sr.toFixed(3)+'</div></div>'
     +'<div class="incc"><div class="incl">Volatility</div><div class="incv">'+(risk*100).toFixed(2)+'%</div></div>'
