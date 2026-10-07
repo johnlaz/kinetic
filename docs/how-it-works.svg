@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="t d">
+  <title id="t">How Kinetic Capital works</title><desc id="d">Weights and assumptions feed the covariance model, which drives the analytics tabs; the optional AI scan reads the result</desc>
+  <defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" fill="#36b2f5"/></marker></defs>
+  <rect width="1200" height="360" rx="18" fill="#0b121b"/><rect x="1" y="1" width="1198" height="358" rx="17" fill="none" stroke="#1e2d3e"/>
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" fill="#e6eef7">
+    <rect x="40" y="110" width="230" height="130" rx="12" fill="#131a24" stroke="#2a3f57"/>
+    <text x="155" y="150" text-anchor="middle" font-size="20" font-weight="700" fill="#3dd68c">1 · You set</text>
+    <text x="155" y="182" text-anchor="middle" font-size="15" fill="#9fb4c9">17-ETF weights</text>
+    <text x="155" y="206" text-anchor="middle" font-size="15" fill="#9fb4c9">capital · risk-free rate</text>
+    <rect x="345" y="110" width="250" height="130" rx="12" fill="#131a24" stroke="#2a3f57"/>
+    <text x="470" y="150" text-anchor="middle" font-size="20" font-weight="700" fill="#36b2f5">2 · Model</text>
+    <text x="470" y="182" text-anchor="middle" font-size="15" fill="#9fb4c9">σp = √(Wᵀ·Σ·W)</text>
+    <text x="470" y="206" text-anchor="middle" font-size="15" fill="#9fb4c9">Sharpe · return · income</text>
+    <rect x="670" y="30" width="240" height="64" rx="10" fill="#131a24" stroke="#2a3f57"/><text x="790" y="68" text-anchor="middle" font-size="16">Efficient frontier</text>
+    <rect x="670" y="108" width="240" height="64" rx="10" fill="#131a24" stroke="#2a3f57"/><text x="790" y="146" text-anchor="middle" font-size="16">10-year Monte Carlo</text>
+    <rect x="670" y="186" width="240" height="64" rx="10" fill="#131a24" stroke="#2a3f57"/><text x="790" y="224" text-anchor="middle" font-size="16">12 stress scenarios</text>
+    <rect x="670" y="264" width="240" height="64" rx="10" fill="#131a24" stroke="#2a3f57"/><text x="790" y="302" text-anchor="middle" font-size="16">Income floor · rebalance</text>
+    <rect x="975" y="110" width="190" height="130" rx="12" fill="#131a24" stroke="#3dd68c" stroke-dasharray="6 5"/>
+    <text x="1070" y="150" text-anchor="middle" font-size="20" font-weight="700" fill="#3dd68c">3 · AI scan</text>
+    <text x="1070" y="182" text-anchor="middle" font-size="15" fill="#9fb4c9">optional · your key</text>
+    <text x="1070" y="206" text-anchor="middle" font-size="15" fill="#9fb4c9">Groq or xAI</text>
+  </g>
+  <g stroke="#36b2f5" stroke-width="2.5" fill="none" marker-end="url(#a)">
+    <path d="M270 175 H340"/><path d="M595 175 H640 L664 62"/><path d="M595 175 H664"/><path d="M595 175 H640 L664 218"/><path d="M595 175 H640 L664 296"/><path d="M910 175 H970"/>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" role="img" aria-labelledby="t d">
+  <title id="t">Data and privacy</title><desc id="d">Everything stays in the browser; only the AI provider and the market data provider are called, directly from the browser</desc>
+  <rect width="1200" height="340" rx="18" fill="#0b121b"/><rect x="1" y="1" width="1198" height="338" rx="17" fill="none" stroke="#1e2d3e"/>
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" fill="#e6eef7">
+    <rect x="40" y="40" width="560" height="260" rx="14" fill="#101823" stroke="#3dd68c" stroke-width="2"/>
+    <text x="70" y="82" font-size="20" font-weight="700" fill="#3dd68c">Your browser (everything lives here)</text>
+    <g font-size="16" fill="#c4d4e4"><text x="70" y="124">• App code + Chart.js + math.js (cached offline)</text><text x="70" y="156">• Portfolios and settings (localStorage)</text><text x="70" y="188">• API keys (localStorage, never sent to us)</text><text x="70" y="220">• All portfolio math runs locally</text><text x="70" y="262" fill="#9fb4c9" font-size="14">No server, no account, no analytics.</text></g>
+    <rect x="740" y="40" width="420" height="112" rx="14" fill="#131a24" stroke="#2a3f57"/>
+    <text x="770" y="80" font-size="18" font-weight="700" fill="#36b2f5">AI provider (optional)</text><text x="770" y="108" font-size="15" fill="#9fb4c9">api.groq.com or api.x.ai</text><text x="770" y="132" font-size="15" fill="#9fb4c9">Sends portfolio stats + tickers</text>
+    <rect x="740" y="188" width="420" height="112" rx="14" fill="#131a24" stroke="#2a3f57"/>
+    <text x="770" y="228" font-size="18" font-weight="700" fill="#36b2f5">Market data (optional)</text><text x="770" y="256" font-size="15" fill="#9fb4c9">financialmodelingprep.com</text><text x="770" y="280" font-size="15" fill="#9fb4c9">Sends tickers + your FMP key</text>
+  </g>
+  <g stroke="#36b2f5" stroke-width="2.5" fill="none"><path d="M600 96 H740"/><path d="M600 244 H740"/></g>
+</svg>
